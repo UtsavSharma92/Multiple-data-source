@@ -39,7 +39,9 @@ public class CustomerConfiguration {
 		return builder
 				.dataSource(primaryDataSource)
 				.packages("com.multiple.datasource.primary.entity")
-				.build();
+				.build();	
+		
+		
 	}
 
 	@Bean(name = "primaryTransactionManager")
